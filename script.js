@@ -41,7 +41,6 @@ class item{
     }
 
     
-       
 
     remove(itemBox, name){
         itemBox.parentNode.removeChild(itemBox);
