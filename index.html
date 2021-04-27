@@ -1,28 +1,21 @@
 <!DOCTYPE html>
-<html lang="lv">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>To Do list</title>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>TODO List</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+   
 </head>
 <body>
-    <h1>To Do list</h1>
-    <div id="poga">
-        <button id="jaunsUzdevums">Jauns uzdevums.</button>
+    <h1><span class="title">Todo</span>List</h1>
+    <div class="inputDiv">
+    	   <input type="uzd" class="input" placeholder="Kads ir uzdevums?">
+    	   <button class="add"><i class="fas fa-plus"></i></button>
     </div>
-    <div id="popUp">
-        <form id = "form">
-            <h3>Pievienot jaunu uzdevumu</h3>
-            <input type="text" id="uzdevums" placeholder="uzdevums">
-            <input type="text" id="termins" placeholder="termins">
-            <button type="submit" id="pievienotUzdevumu">Pievienot</button>
-        </form>
+    <div class="container">
     </div>
-    <div id="todoList">
-
-    </div>
-    <script src="script.js"></script>
+    <script src='script.js'></script>
 </body>
 </html>
